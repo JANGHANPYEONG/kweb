@@ -1,0 +1,11 @@
+.horizontal-lists:nth-of-type(n+2) {
+    color: blue;
+  }
+
+.chapter:nth-of-type(3) .chapter-name {
+    color: RED;
+}
+
+.chapter:nth-of-type(n+1) .chapter-name {
+    font-weight: bold;
+}
