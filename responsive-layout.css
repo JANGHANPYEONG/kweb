@@ -1,0 +1,42 @@
+div {
+    margin: 10px 0px;
+  }
+  
+  .header {
+    height: 50px;
+    background-color: pink;
+    border: 1px solid red;
+  }
+  
+  .navbar {
+    background-color: yellow;
+    border: 1px solid orange;
+    height: 100px;
+  }
+  
+  .content {
+    background-color: skyblue;
+    border: 1px solid blue;
+    height: 150px;
+  }
+  
+  .footer {
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1px solid green;
+  }
+  
+
+  @media (min-width: 800px) {
+    .body > div {
+      display: inline-block;
+    }
+    .body .navbar {
+      width: 19%;
+      height: 400px;
+    }
+    .body .content {
+      width: 80%;
+      height: 400px;
+    }
+  }
